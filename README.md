@@ -1,5 +1,7 @@
 # Netflix GPT
 
+# Step-By-Step
+
     - Create React App
     - Congigured TailwindCSS
     - Header
@@ -7,7 +9,7 @@
     - Sign in Form 
     - Sign up Form
     - Form Validation
-    - useRef hook
+    - useRef hook 
     - firebase setup
     - deploying our app to production
     - Create signup user Account
@@ -38,18 +40,15 @@
     - GPT Search Page
     - GPT Search Bar
     - (Bonus) Multi- language feature in our App
+    - Get Open AI api key
+    - Gpt Search API call
+    - Fetched gptMoviesSuggestions from TMDB
+    - Created gptSlice added data
+    - Resused Movie List component to make movie suggestion sontainer
+    - Memoization
+    - Added .env file
+    - Adding .env file to gitignore
+    - Made or Site Resposive
 
 
     
-# Features
-- Browse
-    - Header
-    - Main Movie
-        - Tailer in Background
-        - Title & Description
-        - MovieSuggestions
-            - MovieLists * N
-
-- NetflixGPT
-    - Search Bar
-    - Movie Suggestions

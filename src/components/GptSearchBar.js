@@ -33,7 +33,7 @@ const GptSearchBar = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer " + OPENAI_KEY, // or your key directly
+        Authorization: "Bearer " + OPENAI_KEY // or your key directly
       },
       body: JSON.stringify({
         model: "openai/gpt-oss-20b:free",
@@ -71,9 +71,9 @@ const GptSearchBar = () => {
   };
 
   return (
-    <div className="pt-[10%] flex justify-center">
+    <div className="flex justify-center">
       <form
-        className="w-1/2 bg-black grid grid-cols-12"
+        className="absolute mx-4 top-56  bg-black grid grid-cols-12"
         onSubmit={(e) => e.preventDefault()}
       >
         <input
@@ -83,7 +83,7 @@ const GptSearchBar = () => {
           placeholder={lang[langKey].gptSearchPlaceholder}
         />
         <button
-          className="col-span-3 m-4 py-2 px-4 bg-red-700 text-white rounded-lg"
+          className="col-span-3 m-4 py-2 px-2 md:px-4 bg-red-700 text-white rounded-lg"
           onClick={handleGptSearch}
         >
           {lang[langKey].search}

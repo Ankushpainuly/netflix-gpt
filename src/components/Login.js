@@ -86,6 +86,7 @@ const Login = () => {
 
         <div className='absolute bg-gradient-to-b from-black'>
             <img 
+            className='h-screen w-screen object-cover '
             src={BG_URL}
             alt='bg-img'
             />
@@ -93,7 +94,7 @@ const Login = () => {
         
         <form 
         onSubmit={(e)=>e.preventDefault()}//to preventDefault action of button
-        className='w-3/12 absolute p-10 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80'>
+        className='w-[80%] md:w-[500px]  absolute p-10 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80'>
             <h1 className='font-bold text-3xl py-4'>
                 {isSignInForm ? "Sign In" : "Sign Up"}
             </h1>

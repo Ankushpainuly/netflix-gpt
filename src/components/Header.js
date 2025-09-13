@@ -61,7 +61,7 @@ const Header = () => {
   }
 
   return (
-    <div className='absolute px-8 py-2 bg-gradient-to-b from-black w-full z-10 flex justify-between'>
+    <div className='absolute px-8 py-2 bg-gradient-to-b from-black w-full z-10 flex flex-col items-center md:flex-row md:justify-between'>
       <img 
         className='w-44'
         src={LOGO}
@@ -69,9 +69,9 @@ const Header = () => {
       />
 
       {user && 
-        (<div className='flex p-2 gap-2 items-center'>
+        (<div className='flex flex-col md:flex-row p-2 gap-2 items-center'>
           {showGptSearch &&(
-          <select className='p-2 m-2 bg-gray-900 text-white rounded-lg' onChange={handleLanguageChange}>
+          <select className='p-2 m-2 md:mr-8 bg-gray-900 text-white rounded-lg' onChange={handleLanguageChange}>
             {SUPPORTED_LANGUAGES.map((lang)=>
               (<option key={lang.identifier} value={lang.identifier}>
                 {lang.name}
@@ -81,18 +81,22 @@ const Header = () => {
           </select>)
           }
 
-          <button className='py-2 mx-4 px-4 my-2 bg-purple-800 text-white rounded-lg'
-            onClick={handleGptSearchClick}  
-            >
-            {showGptSearch ? "Homepage": "GPT Search"}
-          </button>
-          <img 
-            className='w-12 h-12'
-            src={user.photoURL}
-            alt='user-icon'
-          />
+        <div className='flex gap-2 items-center'>
+            <button className='py-2 px-2 my-2 md:mr-8 bg-purple-800 text-white rounded-lg'
+              onClick={handleGptSearchClick}  
+              >
+              {showGptSearch ? "Homepage": "GPT Search"}
+            </button>
 
-          <button onClick={handleSignOut} className='font-bold text-white bg-black py-3 px-2 rounded-lg'>(Sign Out)</button>
+              <img 
+                className='w-12 h-12 hidden md:inline-block'
+                src={user.photoURL}
+                alt='user-icon'
+              />
+
+              <button onClick={handleSignOut} className='font-bold text-white bg-black py-2 px-2 rounded-lg'>(Sign Out)</button>
+          </div>
+          
        </div> 
        )}
 
