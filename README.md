@@ -1,4 +1,67 @@
-# Netflix GPT
+🎬 Netflix-GPT
+
+Netflix-GPT is a smart movie recommendation web app built while following Akshay Saini’s Namaste React Course.
+It combines Firebase Authentication, TMDB APIs, and OpenAI GPT to deliver a personalized movie browsing experience — all without a backend server.
+
+🚀 Features
+
+-> 🔐 Firebase Authentication – Sign up, login, and logout.
+
+-> 🎥 Browse Movies – Get trending, popular, and upcoming movies from TMDB.
+
+-> 🤖 GPT Search – Ask in natural language (e.g., “suggest some underrated sci-fi thrillers”) and get movie results instantly.
+
+-> 📺 Netflix-like UI – Clean interface with posters, trailers, and categories.
+
+
+🛠️ Tech Stack
+
+-> React (Frontend)
+
+-> Tailwind CSS (Styling)
+
+-> Firebase Auth (Authentication)
+
+APIs:
+
+TMDB
+ – Movie data
+
+OpenAI GPT
+ – AI-powered search
+
+⚡ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Ankushpainuly/netflix-gpt.git
+cd netflix-gpt
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Setup Environment Variables
+
+Create a .env file in the root:
+
+REACT_APP_TMDB_KEY=your_tmdb_api_key
+REACT_APP_OPENAI_KEY=your_openai_api_key
+
+4️⃣ Run Locally
+npm start
+
+5️⃣ Build for Production
+npm run build
+
+
+Built while learning from Akshay Saini’s Namaste React Course
+
+Inspired by Netflix UI and powered by TMDB & OpenAI
+
+
+✨ Built with ❤️ using React, Firebase, TMDB & OpenAI
+
+
+
+
 
 # Step-By-Step
 

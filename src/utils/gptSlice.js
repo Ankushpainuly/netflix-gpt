@@ -4,7 +4,6 @@ const gptSlice = createSlice({
     name:"gpt",
     initialState:{
         showGptSearch: false,
-        
         movieResults:null,
         movieNames:null,
     },
