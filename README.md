@@ -24,24 +24,23 @@ It combines Firebase Authentication, TMDB APIs, and OpenAI GPT to deliver a pers
 ⚡ Getting Started
 
 1️⃣ Clone the Repository
-git clone https://github.com/Ankushpainuly/netflix-gpt.git
-cd netflix-gpt
+- git clone https://github.com/Ankushpainuly/netflix-gpt.git
+- cd netflix-gpt
 
 2️⃣ Install Dependencies
-npm install
+- npm install
 
 3️⃣ Setup Environment Variables
 
-Create a .env file in the root:
-
-REACT_APP_TMDB_KEY=your_tmdb_api_key
-REACT_APP_OPENAI_KEY=your_openai_api_key
+- Create a .env file in the root:
+    - REACT_APP_TMDB_KEY=your_tmdb_api_key
+    - REACT_APP_OPENAI_KEY=your_openai_api_key
 
 4️⃣ Run Locally
-npm start
+- npm start
 
 5️⃣ Build for Production
-npm run build
+- npm run build
 
 
 🙏 Acknowledgements
