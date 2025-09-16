@@ -5,32 +5,24 @@ It combines Firebase Authentication, TMDB APIs, and OpenAI GPT to deliver a pers
 
 🚀 Features
 
--> 🔐 Firebase Authentication – Sign up, login, and logout.
-
--> 🎥 Browse Movies – Get trending, popular, and upcoming movies from TMDB.
-
--> 🤖 GPT Search – Ask in natural language (e.g., “suggest some underrated sci-fi thrillers”) and get movie results instantly.
-
--> 📺 Netflix-like UI – Clean interface with posters, trailers, and categories.
+- 🔐 Firebase Authentication – Sign up, login, and logout.
+- 🎥 Browse Movies – Get trending, popular, and upcoming movies from TMDB.
+- 🤖 GPT Search – Ask in natural language (e.g., “suggest some underrated sci-fi thrillers”) and get movie results instantly.
+- 📺 Netflix-like UI – Clean interface with posters, trailers, and categories.
 
 
 🛠️ Tech Stack
 
--> React (Frontend)
+- React (Frontend)
+- Tailwind CSS (Styling)
+- Firebase Auth (Authentication)
+- APIs:
+    - TMDB
+    - Movie data
 
--> Tailwind CSS (Styling)
-
--> Firebase Auth (Authentication)
-
-APIs:
-
-TMDB
- – Movie data
-
-OpenAI GPT
- – AI-powered search
 
 ⚡ Getting Started
+
 1️⃣ Clone the Repository
 git clone https://github.com/Ankushpainuly/netflix-gpt.git
 cd netflix-gpt
@@ -52,9 +44,10 @@ npm start
 npm run build
 
 
-Built while learning from Akshay Saini’s Namaste React Course
+🙏 Acknowledgements
 
-Inspired by Netflix UI and powered by TMDB & OpenAI
+- Built while learning from Akshay Saini’s Namaste React Course
+- Inspired by Netflix UI and powered by TMDB & OpenAI
 
 
 ✨ Built with ❤️ using React, Firebase, TMDB & OpenAI
